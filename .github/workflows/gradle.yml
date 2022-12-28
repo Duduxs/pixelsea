@@ -11,11 +11,11 @@ on:
   push:
     branches: [ "main" ]
     paths: 
-      - 'backend/ms-user/src'
+      - 'backend/ms-user/src/**'
   pull_request:
     branches: [ "main" ]
     paths: 
-    - 'backend/ms-user/src'
+    - 'backend/ms-user/src/**'
 
 permissions:
   contents: read
