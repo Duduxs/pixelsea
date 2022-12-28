@@ -44,6 +44,6 @@ jobs:
       with:
         java-version: '19'
         distribution: 'temurin'
-    - name: Build with Gradle
+    - name: Run Tests with Gradle
       working-directory: ./backend/ms-user
       run: ./gradlew test
