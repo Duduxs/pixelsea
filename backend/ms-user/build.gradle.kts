@@ -6,6 +6,7 @@ plugins {
 
 group = "com.edudev"
 version = "0.0.1-SNAPSHOT"
+
 java {
 	sourceCompatibility = JavaVersion.VERSION_19
 	targetCompatibility = JavaVersion.VERSION_19
