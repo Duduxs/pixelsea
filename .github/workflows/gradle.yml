@@ -31,7 +31,6 @@ jobs:
         java-version: '19'
         distribution: 'temurin'
     - name: Build with Gradle
-    - uses: actions/checkout@master
       working-directory: ./backend/ms-user
       run: ./gradlew clean build
     - name: Print something
